@@ -1,0 +1,31 @@
+ = Python Exercise: Simple Division
+Emrah Mehić
+:doctype: article
+:toc: left
+:encoding: UTF-8
+
+== Introduction
+
+In this exercise, you will create a Python program that performs a simple division. The program should prompt the user to enter two numbers, divide the first number by the second, and display the result. Additionally, the program should handle any errors gracefully, such as division by zero or invalid input.
+
+== Objectives
+
+* Prompt the user to enter two numbers.
+* Divide the first number by the second number.
+* Display the result of the division.
+* Handle division errors, such as division by zero or invalid input, with appropriate error messages.
+
+== Instructions
+
+1. Open your Python editor and create a new file called `SimpleDivision.py`.
+2. Write a program that follows these steps:
+
+   - Prompt the user to enter two numbers.
+   - Convert the inputs to floats to handle decimal numbers.
+   - Perform division and display the result.
+   - Use a `try` and `except` block to handle potential errors:
+     * **ZeroDivisionError**: Display a message like "Cannot divide by zero."
+     * **ValueError**: Display a message if the input is not a number, like "Please enter a valid number."
+
+3. Save and run your program to test that it handles both valid and invalid inputs as expected.
+
